@@ -1,7 +1,13 @@
 # Install node and zx to run scripts via javascript
-
-snap install node --channel=16/stable
-npm i
+pacman -Syu --noconfirm
+pacman -S nodejs npm yarn --noconfirm
 npm i -g zx
-sh -c \"$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\"
+
+# Install oh-my-zsh
+sh -c $(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)
+
+# Install packer-nvim
+git clone https://github.com/wbthomason/packer.nvim\
+  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+
 chmod +x ./index.mjs

@@ -2,7 +2,6 @@
   "chromium",
   "discord",
   "postman",
-  "alacritty --classic",
   "nvim --edge --classic",
   "emacs --classic",
   "code --classic",
