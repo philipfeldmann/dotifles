@@ -1,8 +1,6 @@
-# Settings
+ZSH=$HOME/.oh-my-zsh
+ZSH_CUSTOM=$HOME/zsh_custom
 ZSH_THEME="agnoster"
-
-DISABLE_AUTO_UPDATE="true"
-DISABLE_UPDATE_PROMPT="true"
 
 export EDITOR='nvim'
 
@@ -11,6 +9,5 @@ plugins=(git vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
-# zsh
+# Tmux
 alias tm='tmux'
-
