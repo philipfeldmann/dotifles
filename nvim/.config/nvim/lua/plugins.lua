@@ -39,6 +39,7 @@ return require('packer').startup(function()
 	use 'mattn/emmet-vim'
   use 'ggandor/lightspeed.nvim'
   use 'lukas-reineke/indent-blankline.nvim'
+  use 'lambdalisue/suda.vim'
 
 	-- Git
 	use 'tpope/vim-fugitive'
