@@ -11,3 +11,5 @@ source $ZSH/oh-my-zsh.sh
 
 # Tmux
 alias tm='tmux'
+alias vi='nvim'
+alias vim='nvim'
