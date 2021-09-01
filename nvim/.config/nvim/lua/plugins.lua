@@ -40,6 +40,7 @@ return require('packer').startup(function()
   use 'ggandor/lightspeed.nvim'
   use 'lukas-reineke/indent-blankline.nvim'
   use 'lambdalisue/suda.vim'
+  use 'glepnir/dashboard-nvim'
 
 	-- Git
 	use 'tpope/vim-fugitive'
