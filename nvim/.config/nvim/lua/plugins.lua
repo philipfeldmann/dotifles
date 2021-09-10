@@ -65,11 +65,9 @@ return require('packer').startup(function()
 	use 'nvim-treesitter/nvim-treesitter'
   use 'nvim-treesitter/nvim-treesitter-textobjects'
   use 'windwp/nvim-ts-autotag'
-  use 'HerringtonDarkholme/yats.vim'
 
 	-- LSP 
 	use { 'neoclide/coc.nvim', branch='release' }
-	use { 'prettier/vim-prettier', run='yarn install' }
 	-- use 'neovim/nvim-lspconfig'
 	-- use 'hrsh7th/nvim-compe'
 	-- use 'glepnir/lspsaga.nvim'

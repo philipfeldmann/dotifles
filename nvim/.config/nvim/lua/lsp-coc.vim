@@ -8,9 +8,10 @@ let g:user_emmet_leader_key='<C-e>'
   \ 'coc-eslint', 
   \ 'coc-json', 
   \ 'coc-java',
+  \ 'coc-prettier',
 \ ]
 
-nmap <leader>cp :Prettier<cr>
+nmap <leader>cp :CocCommand prettier.formatFile<cr>
 
 " use <tab> for trigger completion and navigate to the next complete item
 function! s:check_back_space() abort
