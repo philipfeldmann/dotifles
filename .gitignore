@@ -3,4 +3,5 @@ node_modules
 
 # Neovim
 nvim/.config/coc/extensions/*
+nvim/.config/coc/commands/*
 nvim/.config/nvim/plugin/*
