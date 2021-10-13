@@ -27,7 +27,10 @@ return require('packer').startup(function()
 	use 'kyazdani42/nvim-web-devicons'
 	use 'vim-airline/vim-airline'
 	use { 'romgrk/barbar.nvim' }
-	use "kyazdani42/nvim-tree.lua"
+  use {
+    'kyazdani42/nvim-tree.lua',
+    requires = 'kyazdani42/nvim-web-devicons'
+  }
 	use 'ryanoasis/vim-devicons'
 	use 'liuchengxu/vim-which-key'
 	use { 'AckslD/nvim-whichkey-setup.lua', requires = { 'liuchengxu/vim-which-key' } }
