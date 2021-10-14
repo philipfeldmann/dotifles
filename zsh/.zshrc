@@ -3,7 +3,7 @@ ZSH_CUSTOM=$HOME/zsh_custom
 ZSH_THEME="agnoster"
 
 export EDITOR='nvim'
-export TERM='alacritty'
+export TERM='xterm-kitty'
 
 # Plugins
 plugins=(git vi-mode)
