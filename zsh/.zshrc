@@ -14,3 +14,5 @@ source $ZSH/oh-my-zsh.sh
 alias tm='tmux'
 alias vi='nvim'
 alias vim='nvim'
+
+[[ ! -n $(command -v zoxide) ]] || source <(zoxide init zsh)
